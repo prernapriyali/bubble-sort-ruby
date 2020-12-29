@@ -1,5 +1,5 @@
 # Ruby-Bubble-Sort
-It is a very first project in the Ruby curriculum. We are needed to implement the buuble_sort adhering to the guidelines.
+It is a very first project in the Ruby curriculum. We are needed to implement the bubble_sort adhering to the guidelines.
 
 ## Built With
 
