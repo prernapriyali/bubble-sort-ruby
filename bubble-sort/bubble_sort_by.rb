@@ -1,8 +1,8 @@
 def bubble_sort_by(array)
-  (array.length).times do
+  array.length.times do
     swap = 0
     (array.length - 1).times do |i|
-      if yield(array[i], array[i+1]) > 0
+      if yield(array[i], array[i+1]).positive?
         array[i], array[i+1] = array[i+1], array[i]
         swap += 1
       end
