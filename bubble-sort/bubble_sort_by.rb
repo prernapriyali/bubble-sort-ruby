@@ -11,7 +11,7 @@ def bubble_sort_by(array)
   end
 end
 
-sorted_array = bubble_sort_by(%w[pal hello h hola]) do |left , right|
+sorted_array = bubble_sort_by(%w[pal hello h hola]) do |left, right|
   left.length - right.length
 end
 
