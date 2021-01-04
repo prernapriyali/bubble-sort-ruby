@@ -3,11 +3,11 @@ def bubble_sort_by(array)
     swap = 0
     (array.length - 1).times do |i|
       if yield(array[i], array[i+1]).positive?
-        array[i], array[i+1] = array[i+1], array[i]
+        array[i], array[i + 1] = array[i + 1], array[i]
         swap += 1
       end
     end
-    break array if swap == 0
+    break array if swap.zero?
   end
 end
 
